@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiful Alam Redon</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <h1>Form Fill Up </h1>
+
+       <form action="post">
+        <div>
+        <label for="username">First Name :</label>
+        <input type="text" id="username" name="username" placeholder="Enter your name" required><br></br>
+       </div>
+        <div>
+            <label for ="lastname">Last Name :</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required><br></br>
+            </div>
+            <div>
+                <label for="date">Date of Birth:</label>
+                <input type="date" id="date" name="date" required><br></br> 
+        
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="............@gmail.com" required><br></br>            </div>
+            <div>
+                <p>Select your Gender</p>
+                <input type="radio" id="Male" name="Gender" value="male">
+                <label for ="Male">Male</label>
+                <input type="radio" id="Female" name="Gender" value="female">
+                <label for ="Female">Female</label>
+                </div> <br></br>
+        
+                <div>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                         <option value="Select Country">Select</option>           
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="India">India</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Nepal">Nepal</option>
+                    </select>
+                </div> <br></br>
+                <div>
+                    <label for="message">Comment:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your comment here..."></textarea><br>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="Remember" name="Remember" value="yes">
+                    <label for="Remember">Remember Me</label>
+                </div> <br></br>
+                <div>
+                    
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                
+                    </div>
+</form>       
+</body>
+</html>
